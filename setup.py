@@ -9,7 +9,7 @@ setup(
     author='Md. Masudur Rahman',  # Type in your name
     author_email='masudurhimel@gmail.com',  # Type in your E-Mail
     url='https://github.com/masudurHimel/django_unittest_helper',  # Provide either the link to your github or to your website
-    download_url='https://github.com/masudurHimel/TestLibrary_MR/archive/refs/tags/v_02.tar.gz',  # I explain this later on
+    download_url='https://github.com/masudurHimel/django_unittest_helper/archive/refs/tags/v_01.tar.gz',  # I explain this later on
     keywords=['django', 'unittest'],  # Keywords that define your package best
     install_requires=['Pillow'],
     classifiers=[
