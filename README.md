@@ -1,0 +1,1 @@
+# django_unittest_image_helper
