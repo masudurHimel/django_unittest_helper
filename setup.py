@@ -1,11 +1,16 @@
 from distutils.core import setup
 
+with open("../README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name='django_unittest_helper',  # How you named your package folder (MyLib)
     packages=['django_unittest_helper'],  # Chose the same as "name"
     version='0.2',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='Helper package for django unittest',  # Give a short description about your library
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author='Md. Masudur Rahman',  # Type in your name
     author_email='masudurhimel@gmail.com',  # Type in your E-Mail
     url='https://github.com/masudurHimel/django_unittest_helper',  # Provide either the link to your github or to your website
